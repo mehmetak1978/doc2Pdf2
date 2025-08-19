@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] [%level] [%t] %c{1} - %msg%n"/>
+        </Console>
+        <File name="File" fileName="logs/app.log" append="true">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] [%level] [%t] %c - %msg%throwable{short}%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <!-- Silence noisy third-party libraries to only show errors -->
+        <Logger name="org.docx4j" level="ERROR" additivity="true"/>
+        <Logger name="org.apache.fop" level="ERROR" additivity="true"/>
+        <Logger name="org.apache.xmlgraphics" level="ERROR" additivity="true"/>
+        
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
