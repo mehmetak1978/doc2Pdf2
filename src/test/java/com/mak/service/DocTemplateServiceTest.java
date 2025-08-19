@@ -1,5 +1,6 @@
 package com.mak.service;
 
+import com.mak.service.DocTemplateService.TemplateProcessingException;
 import org.docx4j.openpackaging.exceptions.Docx4JException;
 import org.junit.After;
 import org.junit.Assert;
@@ -23,7 +24,7 @@ public class DocTemplateServiceTest {
     }
 
     @Test
-    public void generatesPdfFromTemplate() throws IOException, Docx4JException {
+    public void generatesPdfFromTemplate() throws IOException, Docx4JException, TemplateProcessingException {
         DocTemplateService service = new DocTemplateService();
         Map<String, String> data = new HashMap<>();
         data.put("HEADER", "Header From Test");

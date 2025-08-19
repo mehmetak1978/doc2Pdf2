@@ -10063,3 +10063,122 @@
 [2025-08-19 11:24:38] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
 [2025-08-19 11:24:38] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
 [2025-08-19 11:24:38] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 11:51:51] [INFO] [main] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='junit-output.pdf', placeholders=3
+[2025-08-19 11:51:53] [INFO] [main] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\junit-output.pdf
+[2025-08-19 11:51:54] [INFO] [main] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\junit-output.pdf
+[2025-08-19 11:57:23] [INFO] [main] com.mak.Main - Generating PDFs in parallel (per-template metadata): [template1.docx, template2.docx, template3.docx] -> [template1.pdf, template2.pdf, template3.pdf]
+[2025-08-19 11:57:23] [INFO] [main] com.mak.service.DocTemplateService - Starting parallel PDF generation: 3 requests, 3 threads
+[2025-08-19 11:57:23] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 started: template3.docx -> template3.pdf
+[2025-08-19 11:57:23] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 started: template1.docx -> template1.pdf
+[2025-08-19 11:57:23] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 started: template2.docx -> template2.pdf
+[2025-08-19 11:57:23] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Starting PDF generation: template='template2.docx', output='template2.pdf', placeholders=3
+[2025-08-19 11:57:23] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='template1.pdf', placeholders=3
+[2025-08-19 11:57:23] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Starting PDF generation: template='template3.docx', output='template3.pdf', placeholders=3
+[2025-08-19 11:57:25] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 11:57:25] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 11:57:26] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 11:57:28] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 11:57:28] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 11:57:28] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 11:57:28] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 11:57:29] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 11:57:29] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 11:57:29] [INFO] [main] com.mak.service.DocTemplateService - Parallel PDF generation completed successfully: 3 files
+[2025-08-19 11:57:29] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 11:57:29] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 11:57:29] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:37:30] [INFO] [main] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='junit-output.pdf', placeholders=3
+[2025-08-19 13:37:32] [INFO] [main] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\junit-output.pdf
+[2025-08-19 13:37:34] [INFO] [main] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\junit-output.pdf
+[2025-08-19 13:39:29] [INFO] [main] com.mak.Main - Generating PDFs in parallel (per-template metadata): 3 requests
+[2025-08-19 13:39:29] [INFO] [main] com.mak.service.DocTemplateService - Starting parallel PDF generation: 3 requests, 3 threads
+[2025-08-19 13:39:29] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 started: template2.docx -> template2.pdf
+[2025-08-19 13:39:29] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 started: template1.docx -> template1.pdf
+[2025-08-19 13:39:29] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 started: template3.docx -> template3.pdf
+[2025-08-19 13:39:29] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='template1.pdf', placeholders=3
+[2025-08-19 13:39:29] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Starting PDF generation: template='template2.docx', output='template2.pdf', placeholders=3
+[2025-08-19 13:39:29] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Starting PDF generation: template='template3.docx', output='template3.pdf', placeholders=3
+[2025-08-19 13:39:31] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:39:31] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:39:31] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:39:33] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:39:33] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:39:33] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:39:33] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:39:34] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:39:34] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:39:34] [INFO] [main] com.mak.service.DocTemplateService - Parallel PDF generation completed successfully: 3 files
+[2025-08-19 13:39:34] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:39:34] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:39:34] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:41:22] [INFO] [main] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='junit-output.pdf', placeholders=3
+[2025-08-19 13:41:24] [INFO] [main] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\junit-output.pdf
+[2025-08-19 13:41:26] [INFO] [main] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\junit-output.pdf
+[2025-08-19 13:41:43] [INFO] [main] com.mak.Main - Generating PDF from template 'template1.docx' to output name 'template1.pdf'
+[2025-08-19 13:41:43] [INFO] [main] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='template1.pdf', placeholders=3
+[2025-08-19 13:41:46] [INFO] [main] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:41:47] [INFO] [main] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:41:47] [INFO] [main] com.mak.Main - PDF generated at: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:42:53] [INFO] [main] com.mak.Main - Generating PDFs in parallel (per-template metadata): 3 requests
+[2025-08-19 13:42:53] [INFO] [main] com.mak.service.DocTemplateService - Starting parallel PDF generation: 3 requests, 3 threads
+[2025-08-19 13:42:53] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 started: template1.docx -> template1.pdf
+[2025-08-19 13:42:53] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 started: template2.docx -> template2.pdf
+[2025-08-19 13:42:53] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 started: template3.docx -> template3.pdf
+[2025-08-19 13:42:53] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='template1.pdf', placeholders=3
+[2025-08-19 13:42:53] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Starting PDF generation: template='template3.docx', output='template3.pdf', placeholders=3
+[2025-08-19 13:42:53] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Starting PDF generation: template='template2.docx', output='template2.pdf', placeholders=3
+[2025-08-19 13:42:55] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:42:55] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:42:56] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:42:57] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:42:57] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:42:57] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:42:57] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:42:59] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:42:59] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:42:59] [INFO] [main] com.mak.service.DocTemplateService - Parallel PDF generation completed successfully: 3 files
+[2025-08-19 13:42:59] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:42:59] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:42:59] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:33] [INFO] [main] com.mak.Main - Generating PDFs in parallel (per-template metadata): 3 requests
+[2025-08-19 13:44:33] [INFO] [main] com.mak.service.DocTemplateService - Starting parallel PDF generation: 3 requests, 3 threads
+[2025-08-19 13:44:33] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 started: template3.docx -> template3.pdf
+[2025-08-19 13:44:33] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 started: template1.docx -> template1.pdf
+[2025-08-19 13:44:33] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 started: template2.docx -> template2.pdf
+[2025-08-19 13:44:33] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Starting PDF generation: template='template2.docx', output='template2.pdf', placeholders=3
+[2025-08-19 13:44:33] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='template1.pdf', placeholders=3
+[2025-08-19 13:44:33] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Starting PDF generation: template='template3.docx', output='template3.pdf', placeholders=3
+[2025-08-19 13:44:36] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:36] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:36] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:38] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:38] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:38] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:38] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:39] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:39] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:39] [INFO] [main] com.mak.service.DocTemplateService - Parallel PDF generation completed successfully: 3 files
+[2025-08-19 13:44:39] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:39] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:39] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:51] [INFO] [main] com.mak.Main - Generating PDFs in parallel (per-template metadata): 3 requests
+[2025-08-19 13:44:51] [INFO] [main] com.mak.service.DocTemplateService - Starting parallel PDF generation: 3 requests, 3 threads
+[2025-08-19 13:44:51] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 started: template3.docx -> template3.pdf
+[2025-08-19 13:44:51] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 started: template1.docx -> template1.pdf
+[2025-08-19 13:44:51] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 started: template2.docx -> template2.pdf
+[2025-08-19 13:44:51] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Starting PDF generation: template='template3.docx', output='template3.pdf', placeholders=3
+[2025-08-19 13:44:51] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Starting PDF generation: template='template1.docx', output='template1.pdf', placeholders=3
+[2025-08-19 13:44:51] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Starting PDF generation: template='template2.docx', output='template2.pdf', placeholders=3
+[2025-08-19 13:44:53] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:53] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:54] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - Converting to PDF: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:56] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:56] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:56] [INFO] [pdf-worker-1] com.mak.service.DocTemplateService - [pdf-worker-1] Task #1 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:56] [INFO] [pdf-worker-2] com.mak.service.DocTemplateService - [pdf-worker-2] Task #2 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:57] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - PDF generated successfully: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:57] [INFO] [pdf-worker-3] com.mak.service.DocTemplateService - [pdf-worker-3] Task #3 completed: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
+[2025-08-19 13:44:57] [INFO] [main] com.mak.service.DocTemplateService - Parallel PDF generation completed successfully: 3 files
+[2025-08-19 13:44:57] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template1.pdf
+[2025-08-19 13:44:57] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template2.pdf
+[2025-08-19 13:44:57] [INFO] [main] com.mak.Main - Generated: C:\Users\70886\IdeaProjects\doc2Pdf2\pdfs\template3.pdf
